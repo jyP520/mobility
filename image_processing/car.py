@@ -7,7 +7,7 @@ plt.style.use('dark_background')
 
 pytesseract.pytesseract.tesseract_cmd = "C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
 
-img = cv2.imread('CarNumber.jpg')
+img = cv2.imread('image_processing/car1.png')
 height, width, channel = img.shape
 
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
