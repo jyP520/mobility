@@ -310,9 +310,9 @@ for i, plate_img in enumerate(plate_imgs):
     if has_digit and len(result_chars) > longest_text:
         longest_idx = i
 
-plt.subplot(len(plate_imgs), 1, i+1)
-plt.imshow(img_result, cmap='gray')
-plt.show()
+    plt.subplot(len(plate_imgs), 1, i+1)
+    plt.imshow(img_result, cmap='gray') 
+    #plt.show()
 
 '''
 info = plate_infos[longest_idx]
