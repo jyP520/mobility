@@ -8,6 +8,8 @@ plt.style.use('dark_background')
 
 pytesseract.pytesseract.tesseract_cmd = "C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
 
+#인식 되는 사진: car1, car2, car4, car5, car9
+#인식 안 되는 사진: car3(178호 6203 -> 178흐흐2촬캬), car6(14도 7042 -> 014드 7042)
 img = cv2.imread('image_processing/car6.jpg')
 height, width, channel = img.shape
 
